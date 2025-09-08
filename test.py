@@ -4,12 +4,10 @@ t = Turtle()
 
 t.shape('turtle')
 
-def square(x):
+def equal(x):
     t.forward(x)
-    t.left(90)
+    t.left(120)
     t.forward(x)
-    t.left(90)
+    t.left(120)
     t.forward(x)
-    t.left(90)
-    t.forward(x)
-square(200)
+equal(200)
