@@ -15,5 +15,5 @@ def doubleSquares(irange):
     length = 25
     for i in range(irange):
         square(length, 90)
-        length = length * 2
+        length += 25
 doubleSquares(5)
