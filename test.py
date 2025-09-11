@@ -4,13 +4,12 @@ t = Turtle()
 
 t.shape('turtle')
 
-def square():
-    for i in range(4):
-        t.forward(100)
-        t.left(90)
 
 
-
-for i in range(60):
-    square()
-    t.right(5)
+sidelength = 100
+rotate = 120 
+def triangle(x,y):
+    for i in range(3):
+        t.forward(x,)
+        t.left(y)
+triangle(100,120)
