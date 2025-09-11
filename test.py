@@ -5,15 +5,15 @@ t = Turtle()
 t.shape('turtle')
 
 
-def square():
+def square(x, length):
     for i in range(4):
-        t.forward(100)
-        t.left(90)
+        t.forward(x)
+        t.left(length)
 
 
-
-def doublesquares(irange):
+def doubleSquares(irange):
     length = 25
-    square(length, 90)
-    length = length * 2
-doublesquares(5)
+    for i in range(irange):
+        square(length, 90)
+        length = length * 2
+doubleSquares(5)
