@@ -6,12 +6,16 @@ t.shape('turtle')
 
 
 
-t.speed(10)
+t.speed(120)
 
-for i in range(4):
-    def square(x,y):
+
+
+def square(x,y):
+    for i in range(4):
+
         t.forward(x)
         t.left(y)
+
 
 
 
@@ -22,4 +26,5 @@ def doubleSquare(irange):
     for i in range(irange):
         square(length, 90)
         length = length + 5
+        t.right(5)
 doubleSquare(60) 
